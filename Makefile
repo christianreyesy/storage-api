@@ -24,3 +24,6 @@ build:
 
 run:
 	docker run -p 8080:8080 --env-file .env $(DOCKER_IMAGE_NAME):latest
+
+clean:
+	rm -rf storage migrations database.db
