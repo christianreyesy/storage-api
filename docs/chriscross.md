@@ -21,4 +21,3 @@
 
 >Esto es una prueba
 > Pendiente de prueba
->pendiente 2
