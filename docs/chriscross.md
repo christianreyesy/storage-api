@@ -24,21 +24,21 @@
   A) DE UNA SOLA ETAPAS
   B) DE VARIAS ETAPAS
 # MODULO DE CONSULTA
-1. NOMBRE DE RUTA
-    A)FECHA DEL EVENTO
-      I)CALIFICACION *
-     II)CALIFICACION **
+1. NOMBRE DE RUTA.
+    A)FECHA DEL EVENTO.
+      I)CALIFICACION *.
+     II)CALIFICACION **.
     III)CALIFICACION ***
 3. REPORTES
-  A) TIEMPO PROMEDIO POR SEMANA
-      a) Distancia 20
-      b) Distancia 30
-      c) Distancia 40
-      d) Distancia 50
-      e) Distancia 60
-  B) TIEMPO PROMEDIO POR MES
-      a) Distancia 20
-      b) Distancia 30
-      c) Distancia 40
-      d) Distancia 50
-      e) Distancia 60
+  A) TIEMPO PROMEDIO POR SEMANA.
+      a) Distancia 20.
+      b) Distancia 30.
+      c) Distancia 40.
+      d) Distancia 50.
+      e) Distancia 60.
+  B) TIEMPO PROMEDIO POR MES.
+      a) Distancia 20.
+      b) Distancia 30.
+      c) Distancia 40.
+      d) Distancia 50.
+      e) Distancia 60.
