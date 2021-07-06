@@ -34,7 +34,11 @@
       a) Distancia 20
       b) Distancia 30
       c) Distancia 40
+      d) Distancia 50
+      e) Distancia 60
   B) TIEMPO PROMEDIO POR MES
       a) Distancia 20
       b) Distancia 30
       c) Distancia 40
+      d) Distancia 50
+      e) Distancia 69
