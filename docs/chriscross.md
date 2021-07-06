@@ -23,9 +23,18 @@
 3. POR ETAPAS
   A) DE UNA SOLA ETAPAS
   B) DE VARIAS ETAPAS
-# MODULO EN CONSTRUCCION
+# MODULO DE CONSULTA
 1. NOMBRE DE RUTA
     A)FECHA DEL EVENTO
       I)CALIFICACION *
      II)CALIFICACION **
     III)CALIFICACION ***
+3. REPORTES
+  A) TIEMPO PROMEDIO POR SEMANA
+      a) Distancia 20
+      b) Distancia 30
+      c) Distancia 40
+  B) TIEMPO PROMEDIO POR MES
+      a) Distancia 20
+      b) Distancia 30
+      c) Distancia 40
