@@ -41,4 +41,4 @@
       b) Distancia 30
       c) Distancia 40
       d) Distancia 50
-      e) Distancia 69
+      e) Distancia 60
