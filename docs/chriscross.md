@@ -1,9 +1,9 @@
 # Chris-Cross
 
->Desamos realizar un sistema de registro de ciclistas donde se le pedira al usuario datos personales y su registro de algun evento que va participar y cual fue su ultimo registro de tiempo y distancia que recorrio en ese tiempo.
+>Deseamos realizar un sistema de registro de ciclistas donde se le pedirá al usuario datos personales y su registro de algún evento que va participar y cual fue su ultimo registro de tiempo y distancia que recorrió en ese tiempo.
 > Se realizara un registro de datos de un competidor en la disciplina de ciclismo.
 
-> Donde se solicita los siguientes datos:
+> Donde presentara las siguientes pantallas:
 
 # MODULO DE CAPTURA DE DATOS PERSONALES
 1. NOMBRE
@@ -42,3 +42,4 @@
       c) Distancia 40.
       d) Distancia 50.
       e) Distancia 60.
+> Tendrá las siguientes entidades:
