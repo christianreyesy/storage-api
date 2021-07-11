@@ -17,12 +17,15 @@
 9. TIPO DE BICICLETA
   A) MONTAÑA
   B) RUTA
+
 # MODULO DE REGISTRO DEL EVENTOS
 1. NOMBRE DE EVENTO
 2. DISTANCIA DE LA ACTIVIDAD
 3. POR ETAPAS
   A) DE UNA SOLA ETAPAS
   B) DE VARIAS ETAPAS
+4. Fecha del eveto
+
 # MODULO DE CONSULTA
 1. NOMBRE DE RUTA.
     A)FECHA DEL EVENTO.
@@ -46,9 +49,13 @@
 # Implementación de la aplicación
 ## Entidades
 - Participantes(Id_Participante, No.participante, Nombre, edad, Domicilio, Colonia,Telefono_casa, No celular, Fecha_Nac, correo_electronico, Tipo_bicileta)
-- Eventos(Id_evento, NOmbre_del_evento, Distancia_evento)
+- Eventos(Id_evento, Nombre_del_evento, Distancia_evento,Fecha_evento)
 
 POST / Participantes /New
 {"Id_Participante","No.participante","Nombre","Edad","Domicilio","Colonia","Telefono_casa","No_celular","Fecha_Nac","Correo_electronico","Tipo_bicileta"}
 
-POST /Eventos/New 
+POST /Eventos/New
+{"Id_evento","NOmbre_del_evento","Distancia_evento","Fecha_evento"}
+
+GET /Participantes/<Id_Participante>/No.participante
+GET /
