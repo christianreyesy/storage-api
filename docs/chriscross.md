@@ -43,3 +43,12 @@
       d) Distancia 50.
       e) Distancia 60.
 > Tendrá las siguientes entidades:
+# Implementación de la aplicación
+## Entidades
+- Participantes(Id_Participante, No.participante, Nombre, edad, Domicilio, Colonia,Telefono_casa, No celular, Fecha_Nac, correo_electronico, Tipo_bicileta)
+- Eventos(Id_evento, NOmbre_del_evento, Distancia_evento)
+
+POST / Participantes /New
+{"Id_Participante","No.participante","Nombre","Edad","Domicilio","Colonia","Telefono_casa","No_celular","Fecha_Nac","Correo_electronico","Tipo_bicileta"}
+
+POST /Eventos/New 
