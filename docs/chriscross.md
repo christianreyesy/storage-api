@@ -48,7 +48,7 @@
 > Tendrá las siguientes entidades:
 # Implementación de la aplicación
 ## Entidades
-- Participantes(Id_Participante, No.participante, Nombre, edad, Domicilio, Colonia,Telefono_casa, No celular, Fecha_Nac, correo_electronico, Tipo_bicileta)
+- Participantes(Id_Participante, No.participante, Nombre, Edad, Domicilio, Colonia,Telefono_casa, No celular, Fecha_Nac, correo_electronico, Tipo_bicileta)
 - Eventos(Id_evento, Nombre_del_evento, Distancia_evento,Fecha_evento)
 
 POST / Participantes /New
@@ -57,5 +57,9 @@ POST / Participantes /New
 POST /Eventos/New
 {"Id_evento","NOmbre_del_evento","Distancia_evento","Fecha_evento"}
 
+DELETE /Participantes/Id_Participante
+UPDATE /Participantes/Id_Participante
+
 GET /Participantes/<Id_Participante>/No.participante
-GET /
+GET /Participantes/<Id_Participante>/Edad
+GET /Participantes/<Id_Participante>/Domicilio
