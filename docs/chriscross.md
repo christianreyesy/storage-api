@@ -63,3 +63,4 @@ UPDATE /Participantes/Id_Participante
 GET /Participantes/<Id_Participante>/No.participante
 GET /Participantes/<Id_Participante>/Edad
 GET /Participantes/<Id_Participante>/Domicilio
+GET /Participantes/<Id_Participante>/Telefono_casa
