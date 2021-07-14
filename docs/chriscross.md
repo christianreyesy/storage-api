@@ -6,6 +6,7 @@
 > Donde presentara las siguientes pantallas:
 
 # MODULO DE CAPTURA DE DATOS PERSONALES
+
 1. NOMBRE
 2. EDAD
 3. DOMICILIO 1
@@ -17,11 +18,13 @@
 
 
 # MODULO DE REGISTRO DEL EVENTOS
+
 1. NOMBRE DE EVENTO
 2. DISTANCIA DE LA ACTIVIDAD
 3. Fecha del eveto
 
 # MODULO DE CONSULTA
+
 1. Id del participante
       . Nombre del participante
       . Numero de participante
@@ -62,7 +65,9 @@ por evento.
 
 
 # Implementación de la aplicación
+
 ## Entidades
+
 - Participantes(Id_Participante, No.participante, Nombre, Edad, Domicilio, Colonia,Telefono_casa, No celular, Fecha_Nac, correo_electronico, Tipo_bicileta)
 - Eventos(Id_evento, Nombre_del_evento, Distancia_evento,Fecha_evento)
 
