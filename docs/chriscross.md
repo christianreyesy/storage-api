@@ -42,11 +42,11 @@
       c) Distancia 40.
       d) Distancia 50.
       e) Distancia 60.
-<<<<<<< HEAD
+
+
+
 # Descripción de la aplicación
-=======
-# Descripcion de la apicacion
->>>>>>> 30906956e66905cdb5131ceefe65275b3e6218d2
+
 
 La aplicación tendía el objetivo de llevar el registro de un ciclista
 y para saber historial de participaciones en eventos donde sepamos el
@@ -72,7 +72,7 @@ prueba
 =======
   En este area del programa la finalidad que tiene es llevar el registro de
   los eventos que ha participado
-  
+
 >>>>>>> 30906956e66905cdb5131ceefe65275b3e6218d2
 > Tendrá las siguientes entidades:
 # Implementación de la aplicación
