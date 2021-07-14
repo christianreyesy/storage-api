@@ -36,19 +36,12 @@
       c) Distancia 40.
       d) Distancia 50.
       e) Distancia 60.
-  B) TIEMPO PROMEDIO POR MES.
-      a) Distancia 20.
-      b) Distancia 30.
-      c) Distancia 40.
-      d) Distancia 50.
-      e) Distancia 60.
 
 
 
 # Descripción de la aplicación
 
-
-La aplicación tendía el objetivo de llevar el registro de un ciclista
+  La aplicación tendía el objetivo de llevar el registro de un ciclista
 y para saber historial de participaciones en eventos donde sepamos el
 record que lleva como la distancias que ha recorrido y tiempo que realizo
 por evento.
