@@ -19,19 +19,18 @@
 # MODULO DE REGISTRO DEL EVENTOS
 1. NOMBRE DE EVENTO
 2. DISTANCIA DE LA ACTIVIDAD
-3. POR ETAPAS
-  A) DE UNA SOLA ETAPAS
-  B) DE VARIAS ETAPAS
-4. Fecha del eveto
+3. Fecha del eveto
 
 # MODULO DE CONSULTA
-1. NOMBRE DE RUTA.
-    A)FECHA DEL EVENTO.
-      I)CALIFICACION *.
-     II)CALIFICACION **.
-    III)CALIFICACION ***
+1. Id del participante
+      . Nombre del participante
+      . Numero de participante
+      . Nombre del evento
+      . Fecha del evento
+      . Distancia
+      . FECHA DEL EVENTO.
 3. REPORTES
-  A) TIEMPO PROMEDIO POR SEMANA.
+  A) TIEMPO PROMEDIO POR SEMANA
       a) Distancia 20.
       b) Distancia 30.
       c) Distancia 40.
