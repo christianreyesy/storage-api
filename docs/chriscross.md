@@ -42,7 +42,11 @@
       c) Distancia 40.
       d) Distancia 50.
       e) Distancia 60.
+
+
+
 # Descripción de la aplicación
+
 
 La aplicación tendía el objetivo de llevar el registro de un ciclista
 y para saber historial de participaciones en eventos donde sepamos el
@@ -59,6 +63,7 @@ por evento.
 . Reportes del ciclista.
   En este área del programa la finalidad que tiene es llevar el registro de
   los eventos que ha participado
+
 
 > Tendrá las siguientes entidades:
 # Implementación de la aplicación
