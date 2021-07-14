@@ -48,7 +48,6 @@ La aplicación tendía el objetivo de llevar el registro de un ciclista
 y para saber historial de participaciones en eventos donde sepamos el
 record que lleva como la distancias que ha recorrido y tiempo que realizo
 por evento.
-prueba
 
 . Registro de datos del Participantes
   Aqui llevara los datos generales como es numero que identifica el
