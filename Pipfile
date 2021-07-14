@@ -12,6 +12,7 @@ peewee-migrate = "*"
 pyjwt = "*"
 
 [dev-packages]
+webtest = "*"
 
 [requires]
 python_version = "3.9"

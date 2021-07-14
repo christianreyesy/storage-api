@@ -52,5 +52,3 @@ Try and keep it to one file per directory.
 If you are using storage, name pace your directories, and name space
 your database tables manually and keep the database interface 
 friendly.
-
-And example would be `dell-warranty`

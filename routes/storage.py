@@ -1,31 +1,22 @@
-from json import dumps as json_dumps
-from os import environ
+import json
 import bottle
 from modules.cors import enable_cors
+import modules.bottles
 import modules.utils as utils
 from modules.auth import auth_required
+from modules.storage import (
+    store_bytes,
+    store_string,
+    query_storage,
+    get_storage_file
+)
 
-STORAGE_METHOD = environ["STORAGE_METHOD"]
-if STORAGE_METHOD == 'LOCAL':
-    print("Using local storage")
-    from modules.storage import (
-        store_bytes,
-        store_string,
-        query_storage,
-        get_storage_file
-    )
-elif STORAGE_METHOD == 'GCLOUD':
-    print("Using gcloud storage")
-    from modules.gstorage import (
-        store_bytes,
-        store_string,
-        query_storage,
-        get_storage_file
-    )
-else:
-    raise Exception("Storage method not set")
+app = modules.bottles.BottleJson()
 
-app = bottle.Bottle()
+
+@app.get("/info")
+def info():
+    raise bottle.HTTPError(401, "Error")
 
 
 @app.route("/file", method=["POST", "OPTIONS"])
@@ -59,7 +50,7 @@ def route_json(*args, **kwargs):
         payload=payload,
         source=payload.get("source")
     )
-    store_string("json", f"{_hash}.json", json_dumps(data))
+    store_string("json", f"{_hash}.json", json.dumps(data))
     bottle.response.status = 201
     bottle.response.content_type = "application/json"
     return dict(store="success", ref=_hash)

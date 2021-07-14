@@ -3,10 +3,15 @@ from pathlib import Path
 from io import BytesIO
 from google.cloud import storage
 
+try:
+    bucket_name = environ["GCLOUD_BUCKET"]
+except KeyError:
+    raise Exception("No gcloud bucket set")
+
 
 def get_blob(target):
     client = storage.Client()
-    bucket = client.get_bucket(environ["GCLOUD_BUCKET"])
+    bucket = client.get_bucket(bucket_name)
     return bucket.blob(target)
 
 
@@ -30,7 +35,7 @@ def store_string(collection, filename, text):
 
 def query_storage(path=""):
     client = storage.Client()
-    bucket = client.get_bucket(environ["GCLOUD_BUCKET"])
+    bucket = client.get_bucket(bucket_name)
     iterator = bucket.list_blobs(
         prefix=path,
         delimiter="/",
