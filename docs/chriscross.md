@@ -42,6 +42,7 @@
       c) Distancia 40.
       d) Distancia 50.
       e) Distancia 60.
+La aplicación tendía el objetivo de llevar el registro de un ciclista y para saber historial de participaciones en eventos donde sepamos el record que lleva como la distancias que ha recorrido y tiempo que realizo por evento
 > Tendrá las siguientes entidades:
 # Implementación de la aplicación
 ## Entidades
