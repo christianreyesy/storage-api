@@ -42,7 +42,24 @@
       c) Distancia 40.
       d) Distancia 50.
       e) Distancia 60.
-La aplicación tendía el objetivo de llevar el registro de un ciclista y para saber historial de participaciones en eventos donde sepamos el record que lleva como la distancias que ha recorrido y tiempo que realizo por evento
+# Descripcion de la apicacion
+
+La aplicación tendía el objetivo de llevar el registro de un ciclista
+y para saber historial de participaciones en eventos donde sepamos el
+record que lleva como la distancias que ha recorrido y tiempo que realizo
+por evento.
+
+. Registro de datos del Participantes
+  Aqui llevara los datos generales como es numero que identifica el
+  registro del participante, nombre del participante, domicilio, colonia,
+  telefono tanto de casa como un numero de celular, fecha de nacimiento.
+. Registro de eventos que existen donde los participantes pueden registrarse
+  donde se captura fecha cuando va ser al evento que se esta registrando, la
+  distancia que cuenta el recorrido del evento.
+. Reportes del ciclista.
+  En este area del programa la finalidad que tiene es llevar el registro de
+  los eventos que ha participado
+  
 > Tendrá las siguientes entidades:
 # Implementación de la aplicación
 ## Entidades
