@@ -1,4 +1,4 @@
-# Server interaction examples using curl
+s# Server interaction examples using curl
 
 If you want to check the `CORS` response, you should populate the environment variable named `CORS_DOMAINS` with a value, let's say `http://localhost:1234`, then any request with that value in it's `ORIGIN` _HTTP Header_ should pass the `CORS` check politics in your browser.
 
@@ -32,7 +32,7 @@ Content-Type: application/json
 }
 ```
 
-The curl command should be 
+The curl command should be
 
 ```
 curl -vq http://localhost:8080/storage/json \

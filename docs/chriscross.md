@@ -49,6 +49,11 @@ y para saber historial de participaciones en eventos donde sepamos el
 record que lleva como la distancias que ha recorrido y tiempo que realizo
 por evento.
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> cca1514735c5d8e6ef904e02d237c0d6b770d4ef
 . Registro de datos del Participantes
   Aqui llevara los datos generales como es numero que identifica el
   registro del participante, nombre del participante, domicilio, colonia,
@@ -57,11 +62,18 @@ por evento.
   donde se captura fecha cuando va ser al evento que se esta registrando, la
   distancia que cuenta el recorrido del evento.
 . Reportes del ciclista.
+<<<<<<< HEAD
+=======
+
+>>>>>>> cca1514735c5d8e6ef904e02d237c0d6b770d4ef
   En este área del programa la finalidad que tiene es llevar el registro de
   los eventos que ha participado
 
 
+<<<<<<< HEAD
 > Tendrá las siguientes entidades:
+=======
+>>>>>>> cca1514735c5d8e6ef904e02d237c0d6b770d4ef
 # Implementación de la aplicación
 
 ## Entidades
