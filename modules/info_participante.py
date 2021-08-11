@@ -48,5 +48,4 @@ def almacenar_datos(id_participante=None, nombre=None, edad=None, domicilio=None
         nombre_de_archivo,
         json.dumps(para_almacenar)
         )
-
-        pass
+        return datos
