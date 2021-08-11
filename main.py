@@ -11,12 +11,14 @@ import datetime
 import bottle
 import routes.auth
 import routes.storage
+import routes.chriscroos
 import models.base
 
 app = bottle.Bottle()
 
 app.mount("/auth", routes.auth.app)
 app.mount("/storage", routes.storage.app)
+app.mount("/chriscross", routes.chriscroos.app)
 
 
 @app.get("/")
