@@ -19,3 +19,18 @@ def guardar_participante(nombre=None, edad=None, fecha=None):
         filename, # definimos el nombre del archivo
         json.dumps(datos) # definimos el contenido del archivo
     )
+
+
+def guardar_eventos (nomb_evento=None,fecha_evento=None,distancia)
+    datos = {
+        "nomb_evento": nombre,
+        "fecha_evento": fecha_evento,
+        "distancia": distancia,
+    }
+    filename = f"{fecha_evento}-{nombre.strip(' ')}.json"
+    storage_string(
+    "eventos",
+    filename,
+    json.dumps (datos)
+    )
+    
