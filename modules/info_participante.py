@@ -37,3 +37,8 @@ def almacenar_datos(id_participante=None, nombre=None, edad=None, domicilio=None
         json.dumps(para_almacenar)
     )
     return datos
+
+    def almacenar_eventos(id_partipante=None, id_evento=None, nomb_evento=None, distancia_evento=None,fecha_evento=None):
+        print("Desde modulo almacenar_eventos")
+        
+        pass
