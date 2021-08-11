@@ -39,6 +39,14 @@ def almacenar_datos(id_participante=None, nombre=None, edad=None, domicilio=None
     return datos
 
     def almacenar_eventos(id_partipante=None, id_evento=None, nomb_evento=None, distancia_evento=None,fecha_evento=None):
-        print("Desde modulo almacenar_eventos") #prueba
+        print("Desde modulo almacenar_eventos")
+        para_almacenar = {"id_partipante":id_partipante, "id_evento":id_evento, "nomb_evento":nomb_evento,"fecha_evento":fecha_evento}
+        json_text = json.dumps(para_almacenar)
+        nombre_de_archivo=f"{id_partipante}-{id_evento}-{nomb_evento}.json"
+        datos = store_string (
+        "vg_info/Carpeta2",
+        nombre_de_archivo,
+        json.dumps(para_almacenar)
+        )
 
         pass
