@@ -9,7 +9,7 @@ from models.example import ExampleRecord
 app = BottleJson()
 
 def almacenar_dato(Nombre = None, Edad=None, Fech_Nac = None):
-    print ("Desde modulo")
+    print ("Datos del participante")
     print (Nombre, Edad, Fecha)
     para_almacenar = {"Nombre": Nombre, "Edad": Edad, "Fecha": Fech_Nac}
     json_text = json.dumps (para almacenar)
