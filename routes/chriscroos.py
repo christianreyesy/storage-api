@@ -21,13 +21,16 @@ def post_de_participante():
         # Aqui codificacmos toda la logica que pueda
         # fallar debido a malformaciones de datos
         # proporcinados por el usuario.
+
         payload = bottle.request.json
-        edad = payload["edad"]
+        id_part = payload["id_part"]
         nombre = payload["nombre"]
+        edad = payload["edad"]
+
         # uso de la funcion `dt.date.fromisoformat`
         # para interpetar la fecha a de formato iso.
         fecha = dt.date.fromisoformat(payload["fecha"])
-        # llamada a la funcion asistente en 
+        # llamada a la funcion asistente en
         # `modules/chriscross.py`.
         guardar_participante(
             nombre=nombre,
