@@ -53,7 +53,7 @@ def post_de_participante():
         curl http://localhost:8080/chriscross/evento \
             -X POST \
             -H "Content-Type: application/json" \
-            -d '{"nombre":"foo", "edad": 1, "fecha": "2021-01-10"}'
+            -d '{"nombre_evento":"rosarito_ensenada", "distancia": 80, "fecha": "2021-01-10"}'
         ```
         """
         try:
