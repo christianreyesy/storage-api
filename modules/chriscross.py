@@ -3,10 +3,11 @@ from modules.storage import store_string
 
 
 # funcion asistente que guardar los datos de usuario
-def guardar_participante(nombre=None, edad=None, fecha=None):
+def guardar_participante(id_part=None, nombre=None, edad=None, fecha=None):
     # estructuramos un diccionario de python para guardarlo
     #  como json.
     datos = {
+        "id_part": id_part,
         "nombre": nombre,
         "edad": edad,
         "fecha": fecha,
@@ -21,8 +22,9 @@ def guardar_participante(nombre=None, edad=None, fecha=None):
     )
 
 
-def guardar_eventos (nomb_evento=None,fecha_evento=None,distancia)
+def guardar_eventos (id_evento=None, nomb_evento=None,fecha_evento=None,distancia)
     datos = {
+        "id_evento": id_evento,
         "nomb_evento": nombre,
         "fecha_evento": fecha_evento,
         "distancia": distancia,
@@ -33,4 +35,3 @@ def guardar_eventos (nomb_evento=None,fecha_evento=None,distancia)
     filename,
     json.dumps (datos)
     )
-    
