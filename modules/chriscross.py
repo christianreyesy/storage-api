@@ -1,5 +1,8 @@
 import json
-from modules.storage import store_string
+from modules.storage import (
+     store_string,
+     get_storage_file
+)
 
 
 # funcion asistente que guardar los datos de usuario
