@@ -1,6 +1,8 @@
 import json
 from modules.storage import (
      store_string,
+     storage_bytes,
+     query_storage,
      get_storage_file
 )
 
