@@ -1,7 +1,7 @@
 ## Chris-Cross
 >Autor: Reyes Christian
 
-__
+_
 
 # Concepto de la aplicación ##
 
