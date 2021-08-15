@@ -101,11 +101,12 @@ GET /Participantes/<Id_Participante>/Fecha_Nac
 GET /Participantes/<Id_Participante>/Correo_electronico
 
 
-<TABLE BORDER>
-	<TR>
-		<TD>A</TD> <TD>B</TD> <TD>C</TD>
-	</TR>
-	<TR>
-		<TD>D</TD> <TD>E</TD> <TD>F</TD>
-	</TR>
-</TABLE>
+# Funcionamiento generales
+
+## Commit
+
+_ Crear un fork del proyecto storage-api
+_ Entregable, señalar cual es el commit-hash, apartir del que ustedes realizaron el fork:
+
+|Concepto| Commit Hash|
+|Creacion de Fork||
