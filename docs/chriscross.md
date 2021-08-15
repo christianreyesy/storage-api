@@ -110,7 +110,5 @@ GET /Participantes/<Id_Participante>/Correo_electronico
 . Entregable, señalar cual es el commit-hash, a partir del que ustedes realizaron el fork:
 
 | Concepto | Commit Hash | Observaciones |
-
---- | --- | --- |
-
-Enero | datos | ubicación
+| --- | --- | --- |
+Enero | datos | ubicación |
