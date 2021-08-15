@@ -1,7 +1,7 @@
 ## Chris-Cross
 >Autor: Reyes Christian
 
-## Concepto de la aplicación
+## Concepto de la aplicación ##
 
 >Deseamos realizar un sistema de registro de ciclistas donde se le pedirá al usuario datos personales y su registro de algún evento que va participar y cual fue su ultimo registro de tiempo. Cada evento tiene una distancia total.
 > Se realizara un registro de datos de un competidor en la disciplina de ciclismo.
