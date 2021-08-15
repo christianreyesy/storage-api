@@ -110,4 +110,5 @@ _ Crear un fork del proyecto storage-api
 _ Entregable, señalar cual es el commit-hash, apartir del que ustedes realizaron el fork:
 
 | | Concepto | Commit Hash |
+
 | | --- | --- | --- |
