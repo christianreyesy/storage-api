@@ -109,6 +109,14 @@ GET /Participantes/<Id_Participante>/Correo_electronico
 
 . Entregable, señalar cual es el commit-hash, a partir del que ustedes realizaron el fork:
 
-| Concepto | Commit Hash | Observaciones |
+| Concepto | Commit Hash |
 | --- | --- | --- |
-Enero | datos | ubicación |
+| Creación de Fork | xxxxxx |
+
+Crear los archivos correspondientes a su proyecto, y someterlos a control de versiones
+
+. Entregable, señalar el commit-hash que contiene la creacion de dichos archivos. - Archivos en. /docs,./routes,./modules,./models, nombrados con el slug de su proyecto.
+
+| Concepto | Commit Hash |
+| --- | --- |
+| Creación de docs/chriscross | e7020945a9f1aaf477393f10313c56b2361682b9 |
