@@ -10,14 +10,6 @@
 
 > Este proyecto se puede usar para los eventos que hay de competencia de ciclismo, donde se lleva registros a los eventos y se lleva un record del ciclista.
 
-# Modelos de datos
-
-> Las entidades con se trabajara serán:
-
-. Participantes (id_part, nombre, edad, fecha)
-
-. Eventos (id_evento, nomb_evento, fecha_evento, distancia)
-
 
 1. NOMBRE
 2. EDAD
@@ -27,6 +19,8 @@
 6. Numero de celular
 7. FECHA DE NACIMIENTO
 8. CORREO ELECTRONICO
+
+
 
 
 # MODULO DE REGISTRO DEL EVENTOS
@@ -56,16 +50,12 @@
 
 # Descripción de la aplicación
 
-  La aplicación tendía el objetivo de llevar el registro de un ciclista
+  La aplicación tendrá el objetivo de llevar el registro de un ciclista
 y para saber historial de participaciones en eventos donde sepamos el
 record que lleva como la distancias que ha recorrido y tiempo que realizo
 por evento.
 
-<<<<<<< HEAD
-=======
 
-
->>>>>>> cca1514735c5d8e6ef904e02d237c0d6b770d4ef
 . Registro de datos del Participantes
   Aqui llevara los datos generales como es numero que identifica el
   registro del participante, nombre del participante, domicilio, colonia,
@@ -74,21 +64,14 @@ por evento.
   donde se captura fecha cuando va ser al evento que se esta registrando, la
   distancia que cuenta el recorrido del evento.
 . Reportes del ciclista.
-<<<<<<< HEAD
-=======
 
->>>>>>> cca1514735c5d8e6ef904e02d237c0d6b770d4ef
+
   En este área del programa la finalidad que tiene es llevar el registro de
   los eventos que ha participado
 
-
-<<<<<<< HEAD
-> Tendrá las siguientes entidades:
-=======
->>>>>>> cca1514735c5d8e6ef904e02d237c0d6b770d4ef
 # Implementación de la aplicación
 
-## Entidades
+# Entidades
 
 - Participantes(Id_Participante, No.participante, Nombre, Edad, Domicilio, Colonia,Telefono_casa, No celular, Fecha_Nac, correo_electronico, Tipo_bicileta)
 - Eventos(Id_evento, Nombre_del_evento, Distancia_evento,Fecha_evento)
