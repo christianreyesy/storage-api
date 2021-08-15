@@ -1,11 +1,23 @@
-# Chris-Cross
+## Chris-Cross
+>Autor: Reyes Christian
+
+## Concepto de la aplicación
 
 >Deseamos realizar un sistema de registro de ciclistas donde se le pedirá al usuario datos personales y su registro de algún evento que va participar y cual fue su ultimo registro de tiempo. Cada evento tiene una distancia total.
 > Se realizara un registro de datos de un competidor en la disciplina de ciclismo.
 
-> Donde presentara las siguientes pantallas:
+## Aplicación
 
-# MODULO DE CAPTURA DE DATOS PERSONALES
+> Este proyecto se puede usar para los eventos que hay de competencia de ciclismo, donde se lleva registros a los eventos y se lleva un record del ciclista.
+
+# Modelos de datos
+
+> Las entidades con se trabajara serán:
+
+. Participantes (id_part, nombre, edad, fecha)
+
+. Eventos (id_evento, nomb_evento, fecha_evento, distancia)
+
 
 1. NOMBRE
 2. EDAD
