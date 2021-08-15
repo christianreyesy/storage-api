@@ -113,9 +113,9 @@ GET /Participantes/<Id_Participante>/Correo_electronico
 | --- | --- |
 | Creación de Fork | xxxxxx |
 
-Crear los archivos correspondientes a su proyecto, y someterlos a control de versiones
+- Crear los archivos correspondientes a su proyecto, y someterlos a control de versiones
 
-. Entregable, señalar el commit-hash que contiene la creacion de dichos archivos. - Archivos en. /docs,./routes,./modules,./models, nombrados con el slug de su proyecto.
+- Entregable, señalar el commit-hash que contiene la creacion de dichos archivos. - Archivos en. /docs,./routes,./modules,./models, nombrados con el slug de su proyecto.
 
 | Concepto | Commit Hash |
 | --- | --- |
