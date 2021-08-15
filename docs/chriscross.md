@@ -107,10 +107,8 @@ GET /Participantes/<Id_Participante>/Correo_electronico
 
 __ Crear un fork del proyecto storage-api
 
-__ Entregable, señalar cual es el commit-hash, apartir del que ustedes realizaron el fork:
+__ Entregable, señalar cual es el commit-hash, a partir del que ustedes realizaron el fork:
 
 | Concepto | Commit Hash
-
 --- | ---: | :---:
-
 Enero | datos | ubicación
