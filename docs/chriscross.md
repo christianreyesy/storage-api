@@ -92,3 +92,13 @@ GET /Participantes/<Id_Participante>/Telefono_casa
 GET /Participantes/<Id_Participante>/No_celular
 GET /Participantes/<Id_Participante>/Fecha_Nac
 GET /Participantes/<Id_Participante>/Correo_electronico
+
+
+<TABLE BORDER>
+	<TR>
+		<TD>A</TD> <TD>B</TD> <TD>C</TD>
+	</TR>
+	<TR>
+		<TD>D</TD> <TD>E</TD> <TD>F</TD>
+	</TR>
+</TABLE>
