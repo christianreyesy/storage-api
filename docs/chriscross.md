@@ -64,9 +64,9 @@ por evento.
 
 
 . Registro de datos del Participantes
-  Aqui llevara los datos generales como es numero que identifica el
+  Aquí llevara los datos generales como es numero que identifica el
   registro del participante, nombre del participante, domicilio, colonia,
-  telefono tanto de casa como un numero de celular, fecha de nacimiento.
+  teléfono tanto de casa como un numero de celular, fecha de nacimiento.
 . Registro de eventos que existen donde los participantes pueden registrarse
   donde se captura fecha cuando va ser al evento que se esta registrando, la
   distancia que cuenta el recorrido del evento.
@@ -111,7 +111,7 @@ GET /Participantes/<Id_Participante>/Correo_electronico
 
 | Concepto | Commit Hash |
 | --- | --- |
-| Creación de Fork | xxxxxx |
+| Creación de Fork | 7c205d3b455c24d48a96b01fac200d858da39a52|
 
 - Crear los archivos correspondientes a su proyecto, y someterlos a control de versiones
 
