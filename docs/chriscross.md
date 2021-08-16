@@ -78,7 +78,7 @@ por evento.
 
 # Implementación de la aplicación
 
-# Entidades
+## Entidades
 
 - Participantes(Id_Participante, No.participante, Nombre, Edad, Domicilio, Colonia,Telefono_casa, No celular, Fecha_Nac, correo_electronico, Tipo_bicileta)
 - Eventos(Id_evento, Nombre_del_evento, Distancia_evento,Fecha_evento)
