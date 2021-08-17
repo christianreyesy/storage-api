@@ -124,3 +124,35 @@ GET /Participantes/<Id_Participante>/Correo_electronico
 | Concepto | Commit Hash |
 | --- | --- |
 | Creación de docs/chriscross | e7020945a9f1aaf477393f10313c56b2361682b9 |
+
+# Mock-Ups
+
+## En proceso de edición
+
+# Casos de uso.
+
+## Agregar participantes
+
+
+> El usuario puede agregar participantes para la actividad de ciclismo.
+> curl http://localhost:8080/chriscross/participante \
+      -X POST \
+      -H "Content-Type: application/json" \
+      -d '{"id_part":10,nombre":"foo", "edad": 1, "fecha": "2021-01-10"}
+
+## Agregar eventos.
+
+> El usuario puede agregar diferentes eventos cons us fechas que se van ha realizar y especificar la distancia total del recorrido
+
+>curl http://localhost:8080/chriscross/evento \
+        -X POST \
+        -H "Content-Type: application/json" \
+        -d '{"nombre_evento":"rosarito_ensenada", "distancia": 80, "fecha": "2021-01-10"}
+
+## Consultar información de participantes
+
+> Esta en construcción, pendiente
+
+## Consulta de eventos.
+
+> Esta en construcción, pendiente
