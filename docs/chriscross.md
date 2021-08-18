@@ -161,3 +161,8 @@ GET /Participantes/<Id_Participante>/Correo_electronico
 ## Consulta de eventos.
 
 > Esta en construcción, pendiente
+
+
+# Documentación para el proyecto
+
+ Después de que se termine el desarrollo del código del proyecto que aun esta en construcción, debemos de realizar un análisis sobre las áreas de oportunidades que tuvimos y los aciertos para poder documentarlo y que posteriormente puedan otros colaboradores seguir con el desarrollo o mejoramiento del proyecto.
