@@ -127,6 +127,11 @@ GET /Participantes/<Id_Participante>/Correo_electronico
 
 # Mock-Ups
 
+> Para hacer una mejor planificación del proyecto, se ocupa realizar un bosquejo de como quedaría el proyecto de manera visual de manera gráfico y para esto debemos de realizar bosquejos de como queremos que quede el proyecto de manera visual.
+
+>> Gráficas pendientes
+
+
 ## En proceso de edición
 
 # Casos de uso.
