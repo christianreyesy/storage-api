@@ -136,7 +136,7 @@ GET /Participantes/<Id_Participante>/Correo_electronico
 
 En la siguiente imagen se ve como se vería la ventana donde se llevara los registros de los eventos, tiene dos botones que serán para guardar o cancelar la captura.
 
-
+![Login](https://github.com/christianreyesy/storage-api/blob/6516535d948afe2bb03287eaa06b69b46f1647f3/docs/Registro_eventos.jpg)
 
 
 # Casos de uso
