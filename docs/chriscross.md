@@ -131,7 +131,7 @@ GET /Participantes/<Id_Participante>/Correo_electronico
 
 > En la siguiente figura es la pantalla tentativamente quedaría como se muestra en la imagen. Es la pantalla de captura de datos de los participantes, donde se les pide nombre, edad, fecha de nacimiento. Para que quede grabado la información hay que presionar el botón de guardar o en caso que se quiera cancelar el proceso de captura se le debe presionar el botón de cancelar.
 
-![Login](/pantalla_de_registro.png)
+![Login](https://github.com/christianreyesy/storage-api/blob/master/docs/pantalla_de_registro.png)
 
 
 ## En proceso de edición
