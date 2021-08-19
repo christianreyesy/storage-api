@@ -134,9 +134,12 @@ GET /Participantes/<Id_Participante>/Correo_electronico
 ![Login](https://github.com/christianreyesy/storage-api/blob/84a77bb3789b780daa4e6993d3b58a11d49fd044/docs/pantalla%20_de_registro.png)
 
 
-## En proceso de edición
+En la siguiente imagen se ve como se vería la ventana donde se llevara los registros de los eventos, tiene dos botones que serán para guardar o cancelar la captura.
 
-# Casos de uso.
+
+
+
+# Casos de uso
 
 ## Agregar participantes
 
